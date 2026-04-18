@@ -9,12 +9,14 @@ COURSE_ID = input("请输入课程 ID (例如 369859935833731072): ")
 
 # 从配置文件读取 AUTH_TOKEN
 AUTH_TOKEN = ""
+SAVE_QUESTION = False
 config_path = os.path.join(os.path.dirname(__file__), "config.json")
 if os.path.exists(config_path):
     with open(config_path, "r", encoding="utf-8") as f:
         try:
             config = json.load(f)
             AUTH_TOKEN = config.get("AUTH_TOKEN", "")
+            SAVE_QUESTION = config.get("SAVE_QUESTION", False)
         except json.JSONDecodeError:
             print("配置文件解析失败，请检查 config.json 格式。")
 else:
@@ -82,6 +84,11 @@ def submit_answer(collection_id, user_collection_id, index, options, q_info=None
         res = response.json()
         if res.get("code") == 0:
             data = res.get("data", {})
+            
+            # 如果开启保存题库功能，将题目和答案存入 save 文件夹
+            if SAVE_QUESTION and q_info:
+                save_question_to_file(q_info.get("original_question"), data.get("answerOptions", []), q_type, collection_id)
+
             if data.get("correct") is False and q_info:
                 # 答错了，更新题库
                 file_path = q_info.get("file")
@@ -143,6 +150,71 @@ def update_question_bank_file(file_path, original_question, answer_options, q_ty
             json.dump(data, f, ensure_ascii=False, indent=4)
     except Exception as e:
         print(f"更新题库文件失败: {e}")
+
+def save_question_to_file(original_question, answer_options, q_type, collection_id):
+    if not answer_options:
+        return
+        
+    save_dir = os.path.join(os.path.dirname(__file__), "save")
+    if not os.path.exists(save_dir):
+        os.makedirs(save_dir)
+        
+    save_file = os.path.join(save_dir, f"saved_{collection_id}.json")
+    
+    # 解析正确答案和提取所有选项文本
+    sorted_opts = sorted(answer_options, key=lambda x: x.get("optionId", 0))
+    correct_letters = []
+    options_text_list = []
+    
+    if q_type == "JUDGE":
+        for opt in sorted_opts:
+            options_text_list.append(opt.get("text", ""))
+            if opt.get("correct"):
+                text = opt.get("text", "")
+                if "正确" in text or "对" in text or "是" in text:
+                    correct_letters.append("A")
+                elif "错误" in text or "错" in text or "否" in text:
+                    correct_letters.append("B")
+                else:
+                    correct_letters.append("A" if sorted_opts.index(opt) == 0 else "B")
+    else:
+        mapping = {0: "A", 1: "B", 2: "C", 3: "D", 4: "E", 5: "F"}
+        for i, opt in enumerate(sorted_opts):
+            options_text_list.append(opt.get("text", ""))
+            if opt.get("correct"):
+                correct_letters.append(mapping.get(i, ""))
+                
+    new_answer = "".join(correct_letters)
+    if not new_answer:
+        return
+
+    saved_data = []
+    if os.path.exists(save_file):
+        try:
+            with open(save_file, "r", encoding="utf-8") as f:
+                saved_data = json.load(f)
+        except Exception:
+            pass
+            
+    # 去重检查
+    clean_target = re.sub(r'\s+', '', original_question)
+    for item in saved_data:
+        if re.sub(r'\s+', '', item.get("question", "")) == clean_target:
+            item["answer"] = new_answer
+            item["options"] = options_text_list
+            break
+    else:
+        saved_data.append({
+            "question": original_question,
+            "options": options_text_list,
+            "answer": new_answer
+        })
+        
+    try:
+        with open(save_file, "w", encoding="utf-8") as f:
+            json.dump(saved_data, f, ensure_ascii=False, indent=4)
+    except Exception as e:
+        print(f"保存题库至 save 文件夹失败: {e}")
 
 def map_answer_to_options(answer_str, options, q_type):
     # 将 ABCD 转换成对应的选项，或者处理判断题
