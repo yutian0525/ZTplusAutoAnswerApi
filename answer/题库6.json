@@ -1,0 +1,402 @@
+[
+  {
+    "question": "在 C# 中，PrintPreviewDialog 控件的主要作用是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在 C# 中，通过 PrintPreviewDialog 控件的 Document 属性可以关联（  ）控件。",
+    "answer": "A"
+  },
+  {
+    "question": "在 C# 中，ADO.NET 技术的主要构成包括（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 C# 中，ADO.NET 是指（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "Connection 对象在 ADO.NET 中的作用是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 ADO.NET 中，Connection 对象的 Open 方法的作用是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 ADO.NET# 中，使用 Connection 对象打开数据库连接的语句是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 ADO.NET 中，使用 Connection 对象关闭数据库连接的语句是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 ADO.NET  中，Command 对象的作用是（  ）。",
+    "answer": "D"
+  },
+  {
+    "question": "在 ADO.NET  中，Command 对象的 CommandText 属性用于（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在 ADO.NET  中，使用 Command 对象执行SQL查询语句并获取结果的方法是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 ADO.NET  中，使用 Command 对象执行非查询SQL语句的方法是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 ADO.NET 中，DataReader 对象的主要作用是（  ）。",
+    "answer": "D"
+  },
+  {
+    "question": "在 ADO.NET 中，DataReader 对象的 Read 方法的作用是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 ADO.NET 中，使用 DataReader 对象获取整数类型列的值的方法是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 ADO.NET 中，使用 DataReader 对象获取布尔类型列的值的方法是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在 ADO.NET 中，DataAdapter 对象的主要作用是（  ）。",
+    "answer": "D"
+  },
+  {
+    "question": "在 ADO.NET 中，DataAdapter 对象的 SelectCommand 属性用于（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 ADO.NET 中，使用 DataAdapter 对象将数据从 DataSet 更新到数据库的方法是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 ADO.NET 中，使用 DataAdapter 对象填充 DataSet 的方法是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 ADO.NET 中，DataSet 对象的主要作用是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在 ADO.NET 中，使用 DataSet 对象的 Tables 属性获取数据表集合的方法是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在 ADO.NET 中，DataGridView 数据控件的主要作用是（  ）。",
+    "answer": "D"
+  },
+  {
+    "question": "在 ADO.NET 中，DataGridView 数据控件的数据源可以是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 ADO.NET 中，通过 DataGridView 控件显示数据时，指定数据源的方法是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 ADO.NET 中，通过 DataGridView 控件设置列的显示名称的属性是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在 ADO.NET 中，通过 DataGridView 控件添加新行的方法是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 ADO.NET 中，通过 DataGridView 控件删除选定行的方法是（  ）。",
+    "answer": "D"
+  },
+  {
+    "question": "在 C# 中，通过 File 类的（  ）方法来判断一个文件是否存在。",
+    "answer": "A"
+  },
+  {
+    "question": "在 C# 中，File 类中的（  ）方法用于返回上次访问指定文件或目录的日期和时间。",
+    "answer": "A"
+  },
+  {
+    "question": "在 C# 中，Directory 类中的（  ）方法用于获取指定目录中子目录的名称。",
+    "answer": "A"
+  },
+  {
+    "question": "在 C# 中，Directory 类中的（  ）方法用于设置上次写入目录的日期和时间。",
+    "answer": "D"
+  },
+  {
+    "question": "在 C# 中，通过 FileInfo 的（  ）属性可以获取一个文件的大小。",
+    "answer": "B"
+  },
+  {
+    "question": "在 C# 中，FileInfo 类中的（  ）属性用来获取父目录的实例。",
+    "answer": "A"
+  },
+  {
+    "question": "在 C# 中，DirectoryInfo 类中的（  ）属性用来获取路径的根部分。",
+    "answer": "A"
+  },
+  {
+    "question": "在 C# 中，DirectoryInfo 类中的（  ）属性用来获取 Directory 实例的名称。",
+    "answer": "B"
+  },
+  {
+    "question": "在 C# 中，使用 File 类的（  ）方法来复制文件。",
+    "answer": "A"
+  },
+  {
+    "question": "在 C# 中，使用 File 类移动文件的方法是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 C# 中，使用 Directory 类获取文件夹下所有文件的方法是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 C# 中，使用 Directory 类创建新文件夹的方法是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在 C# 中，数据流是用于处理字节序列的抽象类，它属于（  ）命名空间。",
+    "answer": "A"
+  },
+  {
+    "question": "在 C# 中，数据流的主要特点是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在 C# 中，使用 FileStream 类创建文件流的构造方法中，第一个参数表示（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 C# 中，使用 FileStream 类设置文件流读写位置的属性是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 C# 中，使用 StreamWriter 类写入文本文件的方法是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 C# 中，使用 StreamWriter 类设置文本编码的属性是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 C# 中，StreamReader 类的（  ）方法用于读取输入字符串中的下一个字符或下一组字符。",
+    "answer": "A"
+  },
+  {
+    "question": "在 C# 中，使用 StreamReader 类读取文本文件的方法是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 C# 中，使用 BinaryWriter 类写入整数数据的方法是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 C# 中，使用 BinaryReader 类读取整数数据的方法是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "数据库是用于存储和管理数据的（  ）类型的系统。",
+    "answer": "D"
+  },
+  {
+    "question": "关系型数据库中，数据以表的形式存储，表中的行表示什么（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在 MySQL 中，创建数据库的 SQL 语句是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 MySQL 中，存储数据库表的数据文件的默认扩展名是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 MySQL 中，用于查看当前所有数据库的 SQL 语句是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 MySQL 中，用于显示表的详细结构信息的 SQL 语句是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 MySQL 中，用于修改数据库名称的 SQL 语句是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在 MySQL 中，用于修改表中列的数据类型的 SQL 语句是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 MySQL 中，删除数据库的 SQL 语句是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 MySQL 中，删除表的 SQL 语句是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 MySQL 中，用于指定表的字符集的关键字是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 MySQL 中，（  ）是用于定义自增长列的关键字。",
+    "answer": "A"
+  },
+  {
+    "question": "在 MySQL 中，（  ）是用于存储字符型数据的数据类型。",
+    "answer": "C"
+  },
+  {
+    "question": "在 MySQL 中，（  ）是用于存储小数的数据类型。",
+    "answer": "B"
+  },
+  {
+    "question": "在 MySQL 中，（  ）命令可以显示表的详细结构信息，包括列名、数据类型、键信息等。",
+    "answer": "B"
+  },
+  {
+    "question": "在 MySQL 中，（  ）命令可以显示表的索引信息。",
+    "answer": "D"
+  },
+  {
+    "question": "在 MySQL 中，用于删除表中的列的 SQL 语句是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 MySQL 中，（  ）关键字用于修改表的字符集和校对规则。",
+    "answer": "B"
+  },
+  {
+    "question": "在 MySQL 中，删除表中的所有数据但保留表结构的 SQL 语句是（  ）。",
+    "answer": "D"
+  },
+  {
+    "question": "在 MySQL 中，删除表的同时也删除关联的触发器和索引的关键字是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 MySQL 中，（  ）关键字用于给表的列添加检查约束。",
+    "answer": "A"
+  },
+  {
+    "question": "在 MySQL 中，（  ）关键字用于给表添加唯一约束。",
+    "answer": "D"
+  },
+  {
+    "question": "在 MySQL 中，（  ）关键字用于向表中插入一行数据。",
+    "answer": "B"
+  },
+  {
+    "question": "在 MySQL 中，（  ）函数用于获取最后插入行的自增长列的值。",
+    "answer": "C"
+  },
+  {
+    "question": "在 MySQL 中，（  ）关键字用于在查询结果中去除重复的行。",
+    "answer": "A"
+  },
+  {
+    "question": "在 MySQL 中，（  ）关键字用于限制查询结果中返回的行数。",
+    "answer": "B"
+  },
+  {
+    "question": "在 MySQL 中，通配符（  ）用于匹配任意单个字符。",
+    "answer": "C"
+  },
+  {
+    "question": "在 MySQL 中，通配符（  ）用于匹配任意多个字符序列。",
+    "answer": "B"
+  },
+  {
+    "question": "在 MySQL 中，（  ）关键字用于在查询结果中去除重复的行。",
+    "answer": "A"
+  },
+  {
+    "question": "在 MySQL 中，如果想要查询结果中去除重复的行，应该在查询语句的（  ）子句中使用 DISTINCT 关键字。",
+    "answer": "C"
+  },
+  {
+    "question": "在 MySQL 中，对应查询employees表中工资大于50000并且部门为\"Sales\"的员工的 SQL 语句是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "现有如下查询语句：\nSELECT 学号，姓名，性别，出生年月，身高，体重  FROM 体检表 WHERE 性别=\"男\" OR 性别=“女”AND 身高≥160；\n其功能是查询（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 MySQL 中，执行“SELECT * FROM TABLE LIMIT 5,10”的结果是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在 MySQL 中，正确使用 LIMIT 关键字限制查询结果行数的语句是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 MySQL 中，（  ）运算符用于判断两个值是否相等。",
+    "answer": "B"
+  },
+  {
+    "question": "在 MySQL 中，（  ）运算符用于判断一个值是否在指定的值列表中。",
+    "answer": "B"
+  },
+  {
+    "question": "在 MySQL 中，正确使用 ORDER BY 关键字对查询结果按某一列升序排列的 SQL 语句是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在 MySQL 中，正确使用 ORDER BY 关键字对查询结果先按 column1 升序排列，再按列2降序排列的语句是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 MySQL 中，函数（  ）用于计算某列的行数，不包括 NULL 值。",
+    "answer": "B"
+  },
+  {
+    "question": "在 MySQL 中，函数（  ）用于计算某列的总和。",
+    "answer": "A"
+  },
+  {
+    "question": "在 MySQL 中，（  ）类型的联合查询将返回所有匹配的行，包括重复的行。",
+    "answer": "B"
+  },
+  {
+    "question": "在 MySQL 中，关键字（  ）用于对两个查询结果进行联合操作。",
+    "answer": "C"
+  },
+  {
+    "question": "在 MySQL 中，现数据库中有 A 表，包括学生姓名“name”、学科“course”、成绩“score”等字段，数据表结构如下：\nname        course        score\n张三         语文           80\n张三         数学           90\n李四         语文           70\n李四         数学           80\n李四         英语           90\n能正确统计每个学科的最高分的语句是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 MySQL 中，聚合函数（  ）可以用于计算分组中某列的平均值。",
+    "answer": "C"
+  },
+  {
+    "question": "在 MySQL 中，能在分组后仅返回每组中前两行的语法是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 MySQL 中，能在分组后仅返回满足特定条件组的语法是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 MySQL 中，如果不加任何条件，执行 UPDATE 语句会发生（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 MySQL 中，正确使用 UPDATE 语句同时更新多个列的值的语句是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 MySQL 中，正确同时更新多个列的值，并设置条件的语句是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 MySQL 中，如果要将某一列的值增加 10%，正确的 UPDATE 语句是（  ）。",
+    "answer": "B"
+  }
+]

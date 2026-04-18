@@ -1,0 +1,402 @@
+[
+  {
+    "question": "结构化设计方法中，（  ）是用于控制程序流程、避免混乱的结构。",
+    "answer": "D"
+  },
+  {
+    "question": "在结构化设计中，模块化的概念强调（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "模块结构图是用来表示（  ）的。",
+    "answer": "C"
+  },
+  {
+    "question": "在模块结构图中，箭头一般表示（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "软件层次图用于表示（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在软件层次图中，（  ）符号表示模块。",
+    "answer": "B"
+  },
+  {
+    "question": "HIPO 图中的“H”代表（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 HIPO 图中，主要用（  ）符号表示模块。",
+    "answer": "B"
+  },
+  {
+    "question": "在面向对象软件的文档格式中，（  ）文档主要描述系统的各个类及其之间的关系。",
+    "answer": "C"
+  },
+  {
+    "question": "面向对象软件开发中，（  ）文档通常用于描述系统的用例及其交互情况。",
+    "answer": "C"
+  },
+  {
+    "question": "在软件工程中，物理视图主要描述（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在软件工程中，物理视图主要服务于（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "类图是逻辑视图的一种表示方式，在 UML 类图中，用于表示类之间继承关系的符号是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "逻辑视图又称为设计视图，它表示了设计模型中在架构方面具有重要意义的部分，即类、子系统、包和用例实现的子集。那么，逻辑视图主要描述了系统的（  ）方面。",
+    "answer": "C"
+  },
+  {
+    "question": "在软件工程中，关系图通常用于描述（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "并发图“Concurrency Graph”在软件工程中的主要应用是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在 UML 序列图中，序列图是开发视图的一种表示方式，用于表示对象之间消息传递的符号是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在（  ）类型的系统架构图中，我们更可能看到表示“用户界面”，“业务逻辑”和“数据访问”等层的元素。",
+    "answer": "D"
+  },
+  {
+    "question": "在 UML 中，用例图是场景视图的一种表示方式。用例图主要用于描述系统的（  ）方面。",
+    "answer": "C"
+  },
+  {
+    "question": "在 UML 用例图中，用于表示系统外部与系统交互的元素是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在软件工程中，概要设计和详细设计的主要区别在于（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在软件模块详细设计中，通常会考虑的方面是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "软件模块详细设计的基本任务之一是（  ）。",
+    "answer": "D"
+  },
+  {
+    "question": "在软件模块的详细设计中，确定模块的输入和输出是为了（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在软件模块详细设计中，模块的输入和输出规范通常包括（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "软件模块详细设计中，模块的算法描述主要用于（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在软件模块详细设计中，用于表示模块内部数据和操作的方法是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在软件模块详细设计中，用于描述模块内部算法和流程控制的方法是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在软件模块详细设计中，用于绘制流程图、算法描述和模块接口的工具是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在软件模块详细设计中，用于创建UML类图、时序图和活动图的工具是（  ）。",
+    "answer": "D"
+  },
+  {
+    "question": "程序流程图是一种图形化表示程序控制流程的工具，常用的表示元素包括（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在程序流程图中，矩形通常表示（  ）。",
+    "answer": "D"
+  },
+  {
+    "question": "在软件设计中，盒图“Box Diagram”常用于表示（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "盒图中，一个盒子通常代表（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "问题分析图“PAD 图”常用于（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在问题分析图“PAD 图”中，箭头通常表示（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在软件设计中，将 N-S 图转换为 PAD 图的过程中，N-S 图中的块通常对应 PAD 图中的（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 N-S 图与 PAD 图的转换中，N-S 图中的连接线通常对应 PAD 图中的（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "判定表是软件测试中常用的测试设计方法，主要用于（  ）。",
+    "answer": "D"
+  },
+  {
+    "question": "判定表的主要优势之一是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "判定树是一种软件测试设计方法，它主要用于（  ）。",
+    "answer": "D"
+  },
+  {
+    "question": "判定树中的节点代表（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "过程设计语言 PDL 用于（  ）。",
+    "answer": "D"
+  },
+  {
+    "question": "过程设计语言(PDL)常用的控制结构包括（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在软件工程中，JACKSON 图是一种用于（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在 JACKSON 结构化程序设计方法中，用于表示开始和结束的图形符号是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "流图（程序图）是一种图形化表示程序控制流程的工具，其中常用的图元素包括（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在流图中，矩形通常表示（  ）。",
+    "answer": "D"
+  },
+  {
+    "question": "在 McCabe 方法中，程序的圈复杂度是通过统计程序中的（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "对于 McCabe 方法中的圈复杂度，一般来说，较高的圈复杂度表示（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 Halstead 方法中，程序的长度是通过统计程序中的（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "Halstead 方法中的体积“Volume”可以通过（  ）公式计算。",
+    "answer": "C"
+  },
+  {
+    "question": "在程序路径复杂度的计算中，如果一个程序有 3 个判定节点，且这些判定节点相互独立，则该程序至少有（  ）条独立路径需要进行测试。",
+    "answer": "B"
+  },
+  {
+    "question": "（  ）最直接影响程序路径复杂度的增加。",
+    "answer": "B"
+  },
+  {
+    "question": "在 SQL 表格设计中，用于唯一标识表中每一行记录的属性是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 SQL 中，用于在两个表之间建立关联的机制是通过（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "模块详细设计说明书中，用于记录模块的变量、数据结构和数据字典的部分是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "模块详细设计说明书中，用于描述模块内部算法和流程的部分是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在系统详细需求分析中，非功能性需求指的是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在系统详细需求分析中，用例规约通常包括（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在系统总体方案确认阶段，对于确认的主要内容是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在系统总体方案确认中，（  ）是评审的主要目的。",
+    "answer": "B"
+  },
+  {
+    "question": "在软件工程中，接口设计的主要目的是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "接口设计中，接口规范通常包括（  ）内容。",
+    "answer": "A"
+  },
+  {
+    "question": "在数据库设计中，冗余数据的存在可能导致（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在数据库设计中，第三范式 3NF 的主要目标是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在系统性能设计中，（  ）因素通常被用来衡量系统的响应时间。",
+    "answer": "C"
+  },
+  {
+    "question": "在系统性能设计中，负载测试的主要目的是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在系统出错处理中，错误处理的主要目标是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在系统出错处理中，异常处理通常包括（  ）步骤。",
+    "answer": "D"
+  },
+  {
+    "question": "在 C# 中，MDI 来自于（  ）的缩写。",
+    "answer": "A"
+  },
+  {
+    "question": "在 C# 中，MDI 窗体可以用来实现（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 C# 中，设置 MDI 子窗体在 MDI 父窗体中的初始位置可以使用（  ）属性。",
+    "answer": "A"
+  },
+  {
+    "question": "在 C# 中，通过（  ）属性可以设置 MDI 窗体是否显示在任务栏上。",
+    "answer": "A"
+  },
+  {
+    "question": "在 C# 中，通过（  ）方法可以使 MDI 子窗体按照打开的顺序水平排列。",
+    "answer": "B"
+  },
+  {
+    "question": "在 C# 中，使用（  ）方法可以使 MDI 子窗体按照打开的顺序垂直排列。",
+    "answer": "C"
+  },
+  {
+    "question": "在 C# 中，窗体继承的语法格式是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 C# 中，通过窗体继承，子窗体可以（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 C# 中，通过（  ）控件可以创建菜单栏。",
+    "answer": "A"
+  },
+  {
+    "question": "在 C# 中，通过（  ）控件可以创建弹出式菜单。",
+    "answer": "B"
+  },
+  {
+    "question": "在 C# 中，通过（  ）控件可以创建工具栏。",
+    "answer": "C"
+  },
+  {
+    "question": "在 C# 中，工具栏中的按钮通常是（  ）控件的实例。",
+    "answer": "C"
+  },
+  {
+    "question": "在 C# 中，状态栏是由（  ）控件实现的。",
+    "answer": "B"
+  },
+  {
+    "question": "在 C# 中，通过（  ）属性可以向状态栏添加控件，如 Label 或 ProgressBar。",
+    "answer": "C"
+  },
+  {
+    "question": "在 C# 中，ListView 控件的显示模式中，Details 模式可以显示（  ）信息。",
+    "answer": "D"
+  },
+  {
+    "question": "在 C# 中，通过（  ）属性可以为 ListView 控件设置列标题。",
+    "answer": "C"
+  },
+  {
+    "question": "在 C# 中，TreeView 控件的节点可以通过（  ）属性来获取或设置节点的文本内容。",
+    "answer": "B"
+  },
+  {
+    "question": "在 C# 中，通过（  ）方法可以向 TreeView 控件添加树节点。",
+    "answer": "C"
+  },
+  {
+    "question": "在 C# 中，DateTimePicker 控件的 Format 属性用于指定（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在 C# 中，通过 DateTimePicker 控件的 Value 属性可以获取或设置（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在 C# 中，MonthCalendar 控件的 SelectionRange 属性用于（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 C# 中，通过 MonthCalendar 控件的 FirstDayOfWeek 属性可以设置（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 C# 中，PageSetupDialog 控件用于（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 C# 中，通过 PageSetupDialog 控件的 Document 属性可以关联（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 C# 中，PrintDialog 控件的主要用途是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在 C# 中，通过 PrintDialog 控件的 PrintDocument 属性可以关联（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 C# 中，PrintDocument 控件用于（  ）。",
+    "answer": "D"
+  },
+  {
+    "question": "在 C# 中，通过 PrintDocument 控件的 PrintPage 事件可以（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在 C# 中，PrintPreviewControl 控件的主要用途是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在 C# 中，通过 PrintPreviewControl 控件的 Document 属性可以关联（  ）控件。",
+    "answer": "A"
+  }
+]

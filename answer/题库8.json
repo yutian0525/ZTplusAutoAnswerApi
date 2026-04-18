@@ -1,0 +1,402 @@
+[
+  {
+    "question": "在 Ajax 中，用于获取服务器响应数据的属性是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Ajax 中，（  ）方法用于将服务器响应数据解析为 JSON 格式。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Ajax 中，readyState 属性的值为 2 表示（  ）状态。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Ajax 中，readyState 属性的值为 3 表示（  ）状态。",
+    "answer": "C"
+  },
+  {
+    "question": "在 Ajax 中，用于加载 XML 文件的方法是（  ）。",
+    "answer": "D"
+  },
+  {
+    "question": "在使用 Ajax 加载 XML 文件时，如果文件未找到或加载失败，应该处理（  ）事件。",
+    "answer": "C"
+  },
+  {
+    "question": "在 Ajax 中，用于加载 JSON 文件的方法是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Ajax 中，（  ）方法用于解析 JSON 字符串并返回 JavaScript 对象。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Ajax 中，JSONP 的原理是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在使用 Ajax 进行跨域请求时，关键的 HTTP 头字段标志是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "Java 语言中，集合类都位于（  ）包中。",
+    "answer": "A"
+  },
+  {
+    "question": "List 接口是 Java 集合框架中的一个重要组成部分，它继承自（  ）接口。",
+    "answer": "A"
+  },
+  {
+    "question": "Java 语言中，ArrayList 类的底层数据结构是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "Java 语言中，ArrayList 是 List 接口的一个实现类，它使用数组来存储元素，它的初始容量是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "Java 中的 LinkedList 类实现了（  ）接口。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Java 中，LinkedList 和 ArrayList 之间的主要区别是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "Java 语言中，使用 Iterator 时,（  ）方法是用来判断是否存在下一个元素。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Java 中，Iterator 接口是 Java 集合框架中的一个重要组成部分，它用于遍历集合中的元素，它有（  ）两个基本方法。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Java 中，Set 接口是 Java 集合框架中的一个重要组成部分，它用于存储不重复的元素，它继承自（  ）接口。",
+    "answer": "B"
+  },
+  {
+    "question": "Java 语言中，Set 接口有多种实现类，其中（  ）实现类是基于哈希表的，可以保证元素的插入顺序。",
+    "answer": "B"
+  },
+  {
+    "question": "Java 语言中，（  ）集合中的核心接口中，用于存储一组键值对象，提供键到值的映射。",
+    "answer": "D"
+  },
+  {
+    "question": "Java 语言中，HashMap 是一种（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "Java 泛型的主要目的是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Java 泛型中，通配符 ? 的作用是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Java 类或者接口中，（  ）不属于集合框架中的容器。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Java 中，Map 接口有多种实现类，其中（  ）实现类是基于哈希表的，可以保证键值对的插入顺序。",
+    "answer": "B"
+  },
+  {
+    "question": "Java 输入、输出流相关的接口和类都位于（  ）包中。",
+    "answer": "B"
+  },
+  {
+    "question": "Java 的 IO 是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在 Java 的 File 类常用方法中，（  ）方法是用来用来判断 File 对象对应的文件或目录是否是绝对路径。",
+    "answer": "B"
+  },
+  {
+    "question": "Java 语言中，File 类的 listFiles() 方法的返回值是（  ）类型。",
+    "answer": "B"
+  },
+  {
+    "question": "Java 语言中，字节流的基类是（  ）两个类。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Java 中，在 OutputStream 类的常用方法中，向输出流写入一个字节的是（  ）方法。",
+    "answer": "C"
+  },
+  {
+    "question": "在 Java 中，FileReader 和 FileWriter 的构造方法有（  ）参数。",
+    "answer": "A"
+  },
+  {
+    "question": "Java 语言中，字符流的基类是（  ）两个类。",
+    "answer": "B"
+  },
+  {
+    "question": "Java 语言中，BufferedWriter 是（  ）类型的流。",
+    "answer": "D"
+  },
+  {
+    "question": "Java 语言中，BufferedReader 有（  ）特有的方法。",
+    "answer": "C"
+  },
+  {
+    "question": "Java 语言中，I/O 异常的常见子类有（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "Java 语言中，在异常处理时，进行释放资源、关闭文件等操作需要的语句是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "Java 语言中，进程和线程的区别是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在 Java 中，创建线程的两种常见方式是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Java 中，使用继承 Thread 类的方式创建线程时，必须重写（  ）方法。",
+    "answer": "B"
+  },
+  {
+    "question": "在 Java 中，使用实现 Callable 接口的方式创建线程时，必须实现（  ）方法。",
+    "answer": "C"
+  },
+  {
+    "question": "Java 语言中，运行状态的线程调用（  ）方法后会进入等待状态。",
+    "answer": "B"
+  },
+  {
+    "question": "Java 语言中，新建状态的线程调用（  ）方法后会进入就绪状态。",
+    "answer": "A"
+  },
+  {
+    "question": "Java 语言中提供了一个（  ）线程，自动回收动态分配的内存。",
+    "answer": "D"
+  },
+  {
+    "question": "Java 的线程优先级的默认值是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "Java 的线程优先级可以用（  ）方法设置。",
+    "answer": "A"
+  },
+  {
+    "question": "Java 的锁机机制中，（  ）不能保证线程安全。",
+    "answer": "C"
+  },
+  {
+    "question": "Java 语言中，线程同步的目的是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在 Java 中，synchronized 关键字可以修饰（  ）元素。",
+    "answer": "C"
+  },
+  {
+    "question": "JDBC 驱动程序是一种（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Java 的 JDBC 中负责驱动管理的是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Java 中，JDBC 提供了一系列访问数据库的接口和类，其中（  ）用于加载 JDBC 驱动并创建与数据库的连接。",
+    "answer": "D"
+  },
+  {
+    "question": "在 Java 中，JDBC 是（  ）的缩写。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Java 中，JDBC API 使用（  ）来连接数据库。",
+    "answer": "B"
+  },
+  {
+    "question": "在 Java 中，JDBC API 主要位于（  ）包中。",
+    "answer": "A"
+  },
+  {
+    "question": "Java 语言中，PreparedStatement 对象是通过（  ）方法创建的。",
+    "answer": "B"
+  },
+  {
+    "question": "Java 语言中，PreparedStatement 对象可以用来执行（  ）类型的 SQL 语句。",
+    "answer": "D"
+  },
+  {
+    "question": "Java 语言中，ResultSet 对象是用来存储（  ）类型的数据的。",
+    "answer": "C"
+  },
+  {
+    "question": "在 Java 中，JDBC 执行 SQL 查询语句的结果放在 ResultSet 对象中，调用方法（  ）可将指针从当前位置向下移动一行。",
+    "answer": "D"
+  },
+  {
+    "question": "在 Java JDBC 操作中，用于将参数化的 SQL 语句发送到数据库的方法是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 Java 中，接口 Statement 中定义的 executeUpdate 方法的返回类型是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 Java 中，PreparedStatement 类的 executeQuery(String sql) 方法在执行 SQL 中的 select 语句后返回值类型是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在 Java 中，可以获取结果集的元数据的方法是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 Java 中，通过（  ）类可以用来创建一个 URL 对象。",
+    "answer": "A"
+  },
+  {
+    "question": "网络中计算机连接和通信时遵守的规则称为（  ）。",
+    "answer": "D"
+  },
+  {
+    "question": "面向连接的协议是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Java 的 InetAddress 类的常用方法中，获取本对象的IP地址,并存放在字节数组中的是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 Java 中，在 Socket 类的常用方法中，用于获取创建 Socket 对象时指定的服务器的IP地址的是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "Java Socket 编程中，客户端要连接服务器端，需要使用（  ）类的对象。",
+    "answer": "A"
+  },
+  {
+    "question": "使用 Java 进行 TCP 编程时，双方通过 Socket 打开输入输出流读写数据，我们通过（  ）方法可以从 Socket 对象获取输入流。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Java 中，用于创建 TCP 套接字的类是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 Java 中，通过 ServerSocket 对象中的（  ）方法可以用于接收来自客户端的请求。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Java ServerSocket 类的构造方法中，以端口 port 创建 ServerSocket 对象，并等待客户端的连接请求的是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Java 中，套接字的类型包括流套接字、数据报文套接字和（  ）。",
+    "answer": "D"
+  },
+  {
+    "question": "在 Java 的 Socket 类中，用于获取输出流的方法是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "TCP 和 UDP 的传输方式分别是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "UDP 和 TCP 之间的主要区别是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 Java 中，使用 UDP 协议通信时，需要使用（  ）类把要发送的数据打包，并且用该类对象接收数据。",
+    "answer": "C"
+  },
+  {
+    "question": "UDP 通信中，接收数据包的主机通过（  ）知道发送数据包的主机地址。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Java 中，DatagramPacket 类用来表示（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Java 中，DatagramPacket 类的 getAddress() 方法作用是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在 Java 中，使用 UDP 协议进行通信，在程序运行时，DatagramSocket 的（  ）方法会发生阻塞。",
+    "answer": "B"
+  },
+  {
+    "question": "在 Java 中，在 DatagramSocket 类的常用方法中，（  ）方法用于发送 DatagramPacket 数据报，将数据报中包含的报文发送到 p 指定的 IP 地址的主机。",
+    "answer": "C"
+  },
+  {
+    "question": "在 TCP/IP 模型中，应用层包含了所有的高层协议，在应用协议中，能够实现本地与远程主机之间的文件传输工作的是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "TCP/IP 通讯协议采用了 4 层的层级结构，其中包括应用层、传输层、网络层和（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在 Java 中，使用 Socket 类创建客户端对象时，需要传入服务器端的（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Java 中，使用 Socket 对象进行 TCP 通信时，可以通过（  ）方法获取一个输出流，用于向对方发送数据。",
+    "answer": "A"
+  },
+  {
+    "question": "Java 死锁产生的四个必要条件是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "使用（  ）命令来检测 Java 程序中是否存在死锁。",
+    "answer": "C"
+  },
+  {
+    "question": "在 Android 应用程序中，用于展示用户界面的主要文件是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Android 中，用于定义应用程序的基本特性和权限的文件是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Android 项目中，res 目录主要用于存放（  ）类型的资源。",
+    "answer": "B"
+  },
+  {
+    "question": "在 Android 项目中，assets 目录主要用于存放（  ）类型的资源。",
+    "answer": "B"
+  },
+  {
+    "question": "Android 模拟器是用来模拟（  ）环境的。",
+    "answer": "B"
+  },
+  {
+    "question": "Android Studio 自带的默认模拟器是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "Android 应用程序运行时，当用户按下返回按钮，系统会调用（  ）方法。",
+    "answer": "B"
+  },
+  {
+    "question": "在 Android 应用程序运行时，如果要处理用户界面的交互，通常需要在（  ）方法中编写相应的代码。",
+    "answer": "C"
+  },
+  {
+    "question": "在 Android 中，Activity 是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在 Android 中，每个 Activity 都必须在清单文件中使用（  ）元素声明。",
+    "answer": "A"
+  }
+]

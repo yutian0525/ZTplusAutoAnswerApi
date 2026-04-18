@@ -1,0 +1,402 @@
+[
+  {
+    "question": "在 MySQL 中，（  ）语句可以用于用于删除表中的全部数据但不删除表的结构。",
+    "answer": "A"
+  },
+  {
+    "question": "在 MySQL 中，如果不加任何条件，执行 DELETE 语句会发生（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 MySQL 中，能正确使用 DELETE 语句进行条件删除的语句是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在 MySQL 中，正确使用 DELETE 语句删除表中满足特定条件的行的语句是（  ）。",
+    "answer": "D"
+  },
+  {
+    "question": "在 MySQL 中，如果要向上舍入一个数，应该使用（  ）函数。",
+    "answer": "D"
+  },
+  {
+    "question": "在 MySQL 中，如果要将一个数值舍入为最接近的整数，应该使用（  ）数学计算函数。",
+    "answer": "C"
+  },
+  {
+    "question": "在 MySQL 中，（  ）函数用于返回字符串的长度。",
+    "answer": "B"
+  },
+  {
+    "question": "在 MySQL 中，如果要将一个字符串转换为小写字母，应该使用（  ）字符串函数。",
+    "answer": "B"
+  },
+  {
+    "question": "在 MySQL 中，（  ）函数用于获取当前日期。",
+    "answer": "B"
+  },
+  {
+    "question": "在 MySQL 中，如果要获取当前日期和时间，应该使用（  ）函数。",
+    "answer": "A"
+  },
+  {
+    "question": "在 MySQL 中，流程控制函数（  ）用于在满足条件时返回一个值，否则返回另一个值。",
+    "answer": "D"
+  },
+  {
+    "question": "如果要在 MySQL 中实现类似于其他编程语言中的switch语句的功能，应该使用（  ）流程控制函数。",
+    "answer": "C"
+  },
+  {
+    "question": "在 MySQL 中，如果要执行两个表的笛卡尔积，应该使用（  ）关键字。",
+    "answer": "C"
+  },
+  {
+    "question": "在 MySQL 中，（  ）语句可以用于在 MySQL 中执行两个表的笛卡尔积。",
+    "answer": "A"
+  },
+  {
+    "question": "在 MySQL 中，如果要获取两个表中满足连接条件的行，应该使用（  ）关键字。",
+    "answer": "C"
+  },
+  {
+    "question": "在 MySQL 中，内连接返回的结果集包含（  ）行。",
+    "answer": "C"
+  },
+  {
+    "question": "在 MySQL 中，如果要返回左表的所有行和右表中满足连接条件的行，应该使用（  ）关键字。",
+    "answer": "B"
+  },
+  {
+    "question": "在 MySQL 中，左外连接返回的结果集包含（  ）行。",
+    "answer": "A"
+  },
+  {
+    "question": "在 MySQL 中，（  ）语句可以用于执行交叉连接。",
+    "answer": "D"
+  },
+  {
+    "question": "在 MySQL 中，交叉连接会返回（  ）类型的结果集。",
+    "answer": "C"
+  },
+  {
+    "question": "在 MySQL 中，自连接是指（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 MySQL 中，执行自连接时，通常需要使用（  ）关键字。",
+    "answer": "A"
+  },
+  {
+    "question": "在 MySQL 中，（  ）关键字可以用于在 WHERE 子句中比较子查询的结果。",
+    "answer": "C"
+  },
+  {
+    "question": "在 MySQL 中，如果要查询在某个表中存在的但在另一个表中不存在的记录，可以使用（  ）类型的子查询。",
+    "answer": "D"
+  },
+  {
+    "question": "在 MySQL 中，（  ）关键字可以用于在 FROM 子句中创建一个派生表。",
+    "answer": "B"
+  },
+  {
+    "question": "如果在 WHERE 子句中使用子查询，并希望确保子查询返回的结果与外部查询中的某一列相等，应该使用（  ）关键字。",
+    "answer": "C"
+  },
+  {
+    "question": "在 MySQL 中，相关子查询是（  ）类型的子查询。",
+    "answer": "D"
+  },
+  {
+    "question": "在 MySQL 中，（  ）关键字用于在相关子查询中引用外部查询的列。",
+    "answer": "D"
+  },
+  {
+    "question": "在 MySQL 中，EXISTS 运算符的作用是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在 MySQL 中，（  ）关键字常与 EXISTS 运算符一起使用，用于指定子查询的条件。",
+    "answer": "B"
+  },
+  {
+    "question": "HTML5 是（  ）组织制定的标准。",
+    "answer": "A"
+  },
+  {
+    "question": "HTML5 相对于之前的HTML版本的一个主要改进是（  ）。",
+    "answer": "D"
+  },
+  {
+    "question": "HTML5 中用于指定字符编码的标记是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "（  ）标记用于定义网页的标题。",
+    "answer": "B"
+  },
+  {
+    "question": "HTML5 中用于定义段落的标签是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 HTML5 中，用于创建无序列表的标签是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "HTML5 中用于定义文章主要内容的语义元素是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 HTML5 中，用于表示一个重要的文本部分的语义元素是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 HTML5 中，用于绘制图形的标签是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "（  ）属性用于设置绘图元素的宽度。",
+    "answer": "A"
+  },
+  {
+    "question": "在 HTML5 中，用于嵌入音频文件的标签是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 HTML5 中，（  ）属性用于指定视频文件的地址。",
+    "answer": "A"
+  },
+  {
+    "question": "在 HTML5 中，用于创建文本输入框的标签是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 HTML5 文本输入框中，（  ）属性用于设置输入框的默认值。",
+    "answer": "A"
+  },
+  {
+    "question": "HTML5 中用于接受用户电话号码输入的新输入类型是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 HTML5 中（  ）新的输入类型用于选择日期。",
+    "answer": "A"
+  },
+  {
+    "question": "在 HTML5 中，用于指定可拖放元素的数据类型的属性是（  ）。",
+    "answer": "D"
+  },
+  {
+    "question": "在 HTML5 中，拖放操作的三个主要事件是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "HTML5 中用于本地存储的对象是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在使用 HTML5 中 localStorage 存储数据时，数据的类型是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "CSS3 中的 Flexbox 布局是用来解决（  ）问题的。",
+    "answer": "C"
+  },
+  {
+    "question": "CSS3 中，用于设置元素盒子模型的属性是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "CSS 选择器是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 CSS3 中，（  ）选择器用于选中所有元素。",
+    "answer": "D"
+  },
+  {
+    "question": "CSS3 中的相邻兄弟选择器是（  ）符号。",
+    "answer": "B"
+  },
+  {
+    "question": "CSS3 中，兄弟选择器“~”用于选中元素的（  ）兄弟元素。",
+    "answer": "C"
+  },
+  {
+    "question": "CSS3 中的属性选择器 [attribute=value] 用于（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在 CSS3 中，（  ）属性选择器可以选择以指定字符串开头的属性值。",
+    "answer": "A"
+  },
+  {
+    "question": "CSS3 中的 :hover 伪类选择器用于（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 CSS3 中，（  ）是用于选中表单元素获得焦点的伪类选择器。",
+    "answer": "B"
+  },
+  {
+    "question": "在 CSS3 中，（  ）属性用于设置文本颜色。",
+    "answer": "B"
+  },
+  {
+    "question": "在 CSS3 中（  ）属性用于设置文本的字体大小。",
+    "answer": "A"
+  },
+  {
+    "question": "在 CSS3 盒模型中，（  ）属性用于设置元素的内边距。",
+    "answer": "B"
+  },
+  {
+    "question": "在 CSS3 盒模型中，（  ）属性用于设置元素的边框。",
+    "answer": "C"
+  },
+  {
+    "question": "在 CSS3 中，用于定义弹性盒子容器的属性是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 CSS3 弹性盒布局中（  ）属性用于在弹性盒子容器中设置主轴的方向。",
+    "answer": "A"
+  },
+  {
+    "question": "在 CSS3 中，渐变效果的类型有（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 CSS3 中，可以使用（  ）函数来创建一个线性渐变效果。",
+    "answer": "A"
+  },
+  {
+    "question": "在 CSS3 中，用于定义动画关键帧的关键字是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 CSS3 动画中，animation-fill-mode 属性的作用是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "jQuery 是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "jQuery 的主要用途是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在 jQuery 选择器中，（  ）选择器用于选中具有指定类名的元素。",
+    "answer": "C"
+  },
+  {
+    "question": "在 jQuery 选择器中，用于选中所有 ＜p＞ 元素的是（  ）选择器。",
+    "answer": "A"
+  },
+  {
+    "question": "在 jQuery 中，用于处理元素被点击事件的方法是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 jQuery 中，用于处理文档加载完成事件的方法是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 jQuery 中，用于为元素添加指定的类名的方法是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 jQuery 中，用于切换元素的类名的方法是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 jQuery 中，用于获取元素属性值的方法是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在 jQuery 中，（  ）方法用于在元素内部追加内容。",
+    "answer": "A"
+  },
+  {
+    "question": "在 jQuery 中，（  ）方法用于设置元素的 HTML 内容。",
+    "answer": "A"
+  },
+  {
+    "question": "在 jQuery 中，通过（  ）方法来清空元素的内容。",
+    "answer": "A"
+  },
+  {
+    "question": "在 jQuery 中，用于创建新元素的方法是（  ）。",
+    "answer": "D"
+  },
+  {
+    "question": "在 jQuery 中，通过（  ）方法可以用来在元素前面插入内容。",
+    "answer": "D"
+  },
+  {
+    "question": "在 jQuery 中，用于将事件处理函数绑定到元素的方法是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 jQuery 中，用于解绑元素上特定事件的所有处理函数的方法是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在 jQuery 中，通过（  ）方法可以用来阻止事件冒泡。",
+    "answer": "A"
+  },
+  {
+    "question": "在 jQuery 中，通过（  ）方法可以用来阻止事件的默认行为。",
+    "answer": "B"
+  },
+  {
+    "question": "在 jQuery 中，通过（  ）动画方法可以用来淡入元素。",
+    "answer": "A"
+  },
+  {
+    "question": "在 jQuery 中，通过（  ）动画方法可以用来切换元素的显示和隐藏状态。",
+    "answer": "C"
+  },
+  {
+    "question": "在 jQuery 中，使用 animate 方法实现与代码 $(\"div\").fadeIn(600) 相同效果的代码写法是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 jQuery 中，通过（  ）方法可以用来清空动画队列。",
+    "answer": "A"
+  },
+  {
+    "question": "Ajax 是（  ）技术的缩写。",
+    "answer": "A"
+  },
+  {
+    "question": "Ajax 的主要特点是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在 JavaScript 中，用于创建新的 XMLHttpRequest 对象的方法是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 JavaScript 中，（  ）事件用于处理 XMLHttpRequest 对象的状态改变。",
+    "answer": "C"
+  },
+  {
+    "question": "在 Ajax 的工作流程中，（  ）是 Ajax 的核心组件。",
+    "answer": "D"
+  },
+  {
+    "question": "在 Ajax 的工作流程中，XMLHttpRequest 对象的 readyState 属性值为4时表示（  ）。",
+    "answer": "D"
+  },
+  {
+    "question": "在 Ajax 中，用于向服务器发送 GET 请求的方法是（  ）。",
+    "answer": "D"
+  },
+  {
+    "question": "在 Ajax 中，使用 POST 方式向服务器发送请求时，请求头的 Content-Type 应设置为（  ）。",
+    "answer": "C"
+  }
+]

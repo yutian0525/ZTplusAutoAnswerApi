@@ -1,0 +1,402 @@
+[
+  {
+    "question": "在 Android 中，用于定义 Activity 的布局文件的文件扩展名是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 Android 中，通过（  ）方法加载 Activity 的布局文件。",
+    "answer": "C"
+  },
+  {
+    "question": "在 Android 中，用于启动另一个 Activity 的方法是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Android 系统中，关闭 Activity 方法的是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Android 中，当一个 Activity 首次被创建时，系统会调用（  ）方法。",
+    "answer": "B"
+  },
+  {
+    "question": "在 Android 中，当一个 Activity 从不可见变为可见时，系统会调用（  ）方法。",
+    "answer": "C"
+  },
+  {
+    "question": "在 Android 中，使用 Intent 传递数据时，数据类型（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 Android 中，为了处理从 Intent 带过来的数据,可以通过调用（  ）方法来获取到 Intent 对象。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Android 中，启动另一个 Activity 并获取结果的方法是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Android 中，启动 ActivityForResult 后，结果数据在（  ）方法中获取。",
+    "answer": "B"
+  },
+  {
+    "question": "在 Android 中，Fragment 是一种（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 Android 中，Fragment 的生命周期与（  ）的生命周期类似。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Android 中，通过使用（  ）可以在 Activity 中动态添加 Fragment。",
+    "answer": "D"
+  },
+  {
+    "question": "在 Android 中，通过使用（  ）方法可以从 Fragment 中获取对所属 Activity 的引用。",
+    "answer": "B"
+  },
+  {
+    "question": "在 Android 中，Fragment 的生命周期方法 onCreateView() 的目的是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Android 中，当 Fragment 由不可见变为可见时，系统会调用（  ）生命周期方法。",
+    "answer": "B"
+  },
+  {
+    "question": "在 Android 中，DatePickerDialog 用于（  ）目的。",
+    "answer": "B"
+  },
+  {
+    "question": "在 Android 中，通过（  ）可以创建 DatePickerDialog 的实例。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Android 中，TimePickerDialog 用于（  ）目的。",
+    "answer": "B"
+  },
+  {
+    "question": "在 Android 中，通过（  ）可以创建 TimePickerDialog 实例。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Android 中，通知用于（  ）目的。",
+    "answer": "C"
+  },
+  {
+    "question": "在 Android 中，NotificationManager 类是用来管理所有通知的系统服务，通过（  ）方法来实例化对象。",
+    "answer": "D"
+  },
+  {
+    "question": "在 Android 中，在实例化 Notification 对象时，可以通过（  ）方法指定通知的正文内容。",
+    "answer": "B"
+  },
+  {
+    "question": "在 Android 中，在实例化 Notification 对象时，可以通过（  ）方法指定通知的标题内容。",
+    "answer": "C"
+  },
+  {
+    "question": "在 Android 中，BroadcastReceiver 用于（  ）目的。",
+    "answer": "B"
+  },
+  {
+    "question": "在 Android 中，通过（  ）来注册 BroadcastReceiver。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Android 中，通过（  ）可以动态注册 BroadcastReceiver。",
+    "answer": "B"
+  },
+  {
+    "question": "在 Android 中，如果想要接收系统启动完成的广播，应该使用（  ）Action。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Android 中，AlarmManager 主要用于（  ）目的。",
+    "answer": "C"
+  },
+  {
+    "question": "在 Android 中，AlarmManager 可以用来实现（  ）功能。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Android 中，SharedPreferences 用于（  ）目的。",
+    "answer": "C"
+  },
+  {
+    "question": "在 Android 中，通过（  ）可以获取 SharedPreferences 实例。",
+    "answer": "C"
+  },
+  {
+    "question": "在 Android 中，通过（  ）可以向SharedPreferences中写入字符串数据。",
+    "answer": "C"
+  },
+  {
+    "question": "在 Android 中，通过使用（  ）方法可以从 SharedPreferences 中读取整数数据。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Android 中，内部存储空间是指（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 Android 中，获取内部存储空间的根目录路径的方法是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 Android 中，（  ）类的对象能够读取内部存储文件中的数据。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Android 内部存储中，使用了 FileInputStream 类中的（  ）方法，用于写入数据。",
+    "answer": "D"
+  },
+  {
+    "question": "在 Android 中，外部存储空间通常用于存储（  ）类型的数据。",
+    "answer": "C"
+  },
+  {
+    "question": "在 Android 中，通过调用（  ）方法可以在外部存储空间中创建一个公共文件。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Android 中，通过调用（  ）方法可以执行一个SQL查询语句。",
+    "answer": "B"
+  },
+  {
+    "question": "在 Android 中，创建一个 SQLite 数据库的方式是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在 Android 中，通过使用（  ）方法关闭 SQLite 数据库连接。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Android 应用的 SQLiteDatabase 中开启数据库事务方法的是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Android 应用中使用 SQLiteOpenHelper 的构造方法创建于数据库连接时，参数可以设置为 null 的是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在 Android 应用中使用 SQLiteOpenHelper 类的（  ）方法可以创建一个可写的数据库对象。",
+    "answer": "B"
+  },
+  {
+    "question": "Android 中创建内容提供者时，需要要继承（  ）类。",
+    "answer": "A"
+  },
+  {
+    "question": "为了查询 Android 的 Content Provider 中的数据，需要使用 ContentResolver.query() 方法，该方法返回（  ）对象。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Android 中，为了查询 Content Provider 中的数据，需要使用（  ）方法。",
+    "answer": "D"
+  },
+  {
+    "question": "在 Android 中，Content Provider 的数据访问权限通常通过（  ）进行控制。",
+    "answer": "C"
+  },
+  {
+    "question": "在 Android 中，调用（  ）方法向 Content Provider 增加数据。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Android 中，Content Provider 的 URI 的最后一部分通常用于指定（  ）内容。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Android 中，Service 按照启动方式可分为（  ）和 Bound Service.",
+    "answer": "A"
+  },
+  {
+    "question": "在 Android  中 Service 可以调用（  ）方法停止 Service。",
+    "answer": "B"
+  },
+  {
+    "question": "在 Android 中 Service 的生命周期中，在（  ）完成 Service 的初始化工作。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Android 中，Service 的生命周期中，（  ）方法用于处理与 Activity 的绑定。",
+    "answer": "C"
+  },
+  {
+    "question": "在 Android 中，声明一个 Service 并将其注册到 Manifest 文件中的标签是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 Android 中，在 Manifest 文件中通过（  ）配置一个 Service 可以被绑定。",
+    "answer": "B"
+  },
+  {
+    "question": "Android 提供了 Service 类和（  ）类用于创建和启动 Service。",
+    "answer": "A"
+  },
+  {
+    "question": "Android 应用程序组件能通过调用（  ）方法和传递 Intent 对象来启动 Service。",
+    "answer": "A"
+  },
+  {
+    "question": "在 Android 中 Bound Service 是 Service 类的一个实现，为了给 Service 提供绑定，必须实现（  ）回调方法。",
+    "answer": "D"
+  },
+  {
+    "question": "在 Android 中 Bound Service 是一个在客户端-服务器接口中的服务器，客户端可以调用（  ）方法来绑定到 Service。",
+    "answer": "C"
+  },
+  {
+    "question": "在 Android 中，Handler 类的主要用途是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "Handler 是 Android 提供的一个用来更新 UI 的机制，也是一个（  ）的机制。",
+    "answer": "D"
+  },
+  {
+    "question": "在 Android 中，Handler 的 sendMessage() 方法用于发送（  ）类型的消息。",
+    "answer": "D"
+  },
+  {
+    "question": "在 Android 中，如果想要在 UI 线程中更新 UI 元素，应该（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在 Android 中，AsyncTask 的主要作用是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在 AsyncTask 中，doInBackground() 方法运行在（  ）线程中。",
+    "answer": "C"
+  },
+  {
+    "question": "Android 中 IntentService 是（  ）的子类，用来处理异步请求。",
+    "answer": "D"
+  },
+  {
+    "question": "在 Android 中，创建 IntentService 时，只需要实现（  ）方法和构造方法。",
+    "answer": "B"
+  },
+  {
+    "question": "软件（  ）以及软件向各个结点的部署的工作被称为软件部署。",
+    "answer": "A"
+  },
+  {
+    "question": "软件部署是一个复杂过程，包括从开发商发放产品，到应用者在他们的计算机上实际安装并维护应用的所有活动。这些活动包括开发商的软件打包，企业及用户对软件的安装、（  ）等。",
+    "answer": "C"
+  },
+  {
+    "question": "软件产品部署的特征中，最能代表“灰度发布”的描述是（  ）。",
+    "answer": "B"
+  },
+  {
+    "question": "在软件产品部署特征中，“Blue-Green 部署”是指（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在软件产品部署实施中，（  ）环节通常包括对已发布系统的性能监控和问题排查。",
+    "answer": "C"
+  },
+  {
+    "question": "软件产品部署实施中，（  ）是“金丝雀发布”。",
+    "answer": "A"
+  },
+  {
+    "question": "在软件产品高级部署中，（  ）术语通常用于描述将应用程序和所有依赖项一起打包的过程。",
+    "answer": "A"
+  },
+  {
+    "question": "在软件产品高级部署中，（  ）工具通常用于自动化部署流程和配置管理。",
+    "answer": "C"
+  },
+  {
+    "question": "在集中式部署中，（  ）优势是由于集中管理和控制带来的。",
+    "answer": "C"
+  },
+  {
+    "question": "集中式部署中，（  ）策略通常用于提高系统的可用性和容错性。",
+    "answer": "A"
+  },
+  {
+    "question": "在集中式部署的设计中，为了提高系统的可用性，通常会使用（  ）设计原则。",
+    "answer": "D"
+  },
+  {
+    "question": "在集中式部署中，为了提高系统的性能和扩展性，常常会应用（  ）设计原则。",
+    "answer": "D"
+  },
+  {
+    "question": "在集中式部署中，由于所有组件都集中在一个服务器上，通常会导致（  ）问题。",
+    "answer": "A"
+  },
+  {
+    "question": "集中式部署中，由于所有组件都在一个服务器上，通常具有（  ）优势。",
+    "answer": "D"
+  },
+  {
+    "question": "在集中式部署的关键技术中，（  ）用于确保系统在高负载情况下仍能提供稳定的性能。",
+    "answer": "B"
+  },
+  {
+    "question": "在集中式部署中，（  ）技术主要用于保护系统免受恶意攻击和非法访问。",
+    "answer": "B"
+  },
+  {
+    "question": "分布式部署中，（  ）概念用于描述系统的各个组件之间相互协作、通信和传递消息的方式。",
+    "answer": "C"
+  },
+  {
+    "question": "在分布式部署的系统中，为了提高性能，通常会采用（  ）技术用于将请求分发到不同的服务器上进行处理。",
+    "answer": "C"
+  },
+  {
+    "question": "在分布式系统设计中，为了降低组件之间的耦合度，通常会采用（  ）设计原则。",
+    "answer": "B"
+  },
+  {
+    "question": "在分布式部署的设计中，为了方便系统的维护和升级，通常会遵循（  ）设计原则。",
+    "answer": "C"
+  },
+  {
+    "question": "分布式部署中，（  ）因素可能对系统性能产生影响。",
+    "answer": "B"
+  },
+  {
+    "question": "分布式系统的一个优势是能够更好地应对（  ）类型的情况",
+    "answer": "A"
+  },
+  {
+    "question": "在分布式部署中，（  ）技术可以帮助系统处理大规模的数据并提高数据的处理速度。",
+    "answer": "C"
+  },
+  {
+    "question": "在分布式部署的系统中，（  ）技术用于处理用户请求时将请求发送到最近的服务器，以减少网络延迟。",
+    "answer": "C"
+  },
+  {
+    "question": "远程调试中，远程调试的主要优势之一是（  ）。",
+    "answer": "A"
+  },
+  {
+    "question": "在远程调试中，（  ）步骤通常是远程调试的基本流程。",
+    "answer": "C"
+  },
+  {
+    "question": "在远程调试环境中，确保代码可执行性和运行结果一致性的重要因素是（  ）。",
+    "answer": "C"
+  },
+  {
+    "question": "在远程调试环境搭建中，（  ）要素是确保团队协作顺利的关键因素。",
+    "answer": "B"
+  },
+  {
+    "question": "在远程调试中，（  ）类型的远程调试主要用于在生产环境中对代码进行实时监测和分析。",
+    "answer": "B"
+  },
+  {
+    "question": "在远程调试中，（  ）类型的远程调试是通过在代码中插入断点或日志来收集调试信息。",
+    "answer": "D"
+  }
+]
