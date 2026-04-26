@@ -3,6 +3,7 @@ import json
 import os
 import glob
 import re
+import random
 
 # 配置区域
 COURSE_ID = input("请输入课程 ID (例如 369859935833731072): ")
@@ -97,7 +98,14 @@ def submit_answer(collection_id, user_collection_id, index, options, q_info=None
                 print(f"第 {index + 1} 题提交成功，但回答错误，已更新题库答案")
                 return "WRONG"
             else:
-                print(f"第 {index + 1} 题提交成功")
+                if q_info and q_info.get("is_new"):
+                    # 盲猜碰巧猜对了，依然需要把答案写进题库
+                    file_path = q_info.get("file")
+                    answer_options = data.get("answerOptions", [])
+                    update_question_bank_file(file_path, q_info.get("original_question"), answer_options, q_type)
+                    print(f"第 {index + 1} 题盲猜提交成功且蒙对了，已补充至题库")
+                else:
+                    print(f"第 {index + 1} 题提交成功")
                 return "CORRECT"
         else:
             print(f"第 {index + 1} 题提交异常: {res}")
@@ -107,8 +115,13 @@ def submit_answer(collection_id, user_collection_id, index, options, q_info=None
         return "ERROR"
 
 def update_question_bank_file(file_path, original_question, answer_options, q_type):
-    if not file_path or not os.path.exists(file_path):
+    if not file_path:
         return
+        
+    if not os.path.exists(file_path):
+        os.makedirs(os.path.dirname(file_path), exist_ok=True)
+        with open(file_path, "w", encoding="utf-8") as f:
+            json.dump([], f)
     
     # 解析正确答案
     sorted_opts = sorted(answer_options, key=lambda x: x.get("optionId", 0))
@@ -141,10 +154,18 @@ def update_question_bank_file(file_path, original_question, answer_options, q_ty
             data = json.load(f)
             
         clean_target = re.sub(r'\s+', '', original_question)
+        found = False
         for item in data:
             if re.sub(r'\s+', '', item.get("question", "")) == clean_target:
                 item["answer"] = new_answer
+                found = True
                 break
+                
+        if not found:
+            data.append({
+                "question": original_question,
+                "answer": new_answer
+            })
                 
         with open(file_path, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
@@ -278,9 +299,22 @@ def run_paper(collection_id):
         q_info = question_bank.get(clean_content)
         
         if not q_info:
-            print(f"第 {index + 1} 题未找到答案: {content}")
+            print(f"第 {index + 1} 题未找到答案，将随机选择并加入题库: {content}")
             has_error = True
-            continue
+            fallback_file = os.path.join(os.path.dirname(__file__), "answer", "补充题库.json")
+            
+            # 随机选一个选项
+            guess_letters = ["A", "B", "C", "D", "E", "F"]
+            idx = random.randint(0, max(0, len(options) - 1)) if options else 0
+            guess = guess_letters[idx] if idx < len(guess_letters) else "A"
+            if q_type == "JUDGE":
+                guess = random.choice(["A", "B"])
+                
+            q_info = {
+                "answer": guess,
+                "file": fallback_file,
+                "is_new": True # 标记为新题，不论对错都需要写入
+            }
             
         answer_str = q_info.get("answer", "")
         q_info["original_question"] = content
