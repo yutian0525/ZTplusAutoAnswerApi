@@ -1,0 +1,28 @@
+answer/AutoAnswer.js
+  s_85ba1ef70d27e0::t_90755253befa81 2-359
+.gitignore
+  h_71c0863b823da1 14
+answer/question_server.py
+  s_85ba1ef70d27e0::t_e1c23e34c36829 7-69
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.0",
+  "base_commit_sha": "3c717994a707d0eab6e6599c946b398ba8fb76ff",
+  "prompts": {},
+  "humans": {
+    "h_71c0863b823da1": {
+      "author": "倪镭 <110873087+yutian0525@users.noreply.github.com>"
+    }
+  },
+  "sessions": {
+    "s_85ba1ef70d27e0": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "4c84fd4c-a4b9-4558-a3b9-d20d226f046b",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "倪镭 <110873087+yutian0525@users.noreply.github.com>"
+    }
+  }
+}
